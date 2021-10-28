@@ -55,6 +55,9 @@ Here is the example output:
    [PASSED] Expected result: Client has been connected to server
 
 
+
+
+
 * HOW TO TEST CLASSES:
 
 [ 1.] Create an object of class ClassTester of namespace PedanticTester
@@ -95,12 +98,14 @@ Here is the example output:
 
    [X] TestClass2 has been REJECTED
 
->>>>>>>> Functions below has failed: <<<<<<<<<
+	Functions below has failed: 
 
 1. Function1
 2. Function3
 
    [V] TestClass3 has been ACCEPTED
+   
+   
 
 Author: Weronika Kinga Sleboda 2021-10-28
 
