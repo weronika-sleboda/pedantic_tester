@@ -51,8 +51,8 @@ Example code number 4:
 
 Here is the example output:
 
-   Test function : TestClass::function1()
-   [PASSED] Expected result: Client has been connected to server
+Test function : TestClass::function1()
+[PASSED] Expected result: Client has been connected to server
 
 
 
@@ -98,7 +98,7 @@ Here is the example output:
 
    [X] TestClass2 has been REJECTED
 
-	Functions below has failed: 
+Functions below has failed: 
 
 1. Function1
 2. Function3
