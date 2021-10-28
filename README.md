@@ -49,6 +49,11 @@ Example code number 4:
 
 [ 7.] The test is DONE!
 
+Here is the example output:
+
+   Test function : TestClass::function1()
+   [PASSED] Expected result: Client has been connected to server
+
 
 * HOW TO TEST CLASSES:
 
@@ -74,9 +79,7 @@ Example code number 1:
 
 
 The key is the name of the function you want to test and the value is the bool you expect
-the function to return. If it fails the class will be rejected and the function printed
-in a list of functions which failed and need to be handled.
-
+the function to return. If any of the tested functions fails, the class will be rejected.
 
 [ 3.] Call function >>> pedanticTester.nameTestClass("Write the name of the class you want to test here");  
 
@@ -88,6 +91,16 @@ in a list of functions which failed and need to be handled.
 
 [ 7.] The test is DONE!
 
+Here is the example output:
+
+   [X] TestClass2 has been REJECTED
+
+>>>>>>>> Functions below has failed: <<<<<<<<<
+
+1. Function1
+2. Function3
+
+   [V] TestClass3 has been ACCEPTED
 
 Author: Weronika Kinga Sleboda 2021-10-28
 
